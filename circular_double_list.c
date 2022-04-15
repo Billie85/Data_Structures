@@ -31,9 +31,6 @@ struct t_node *circular_double_list(int value) {
   return tmp;
 }
 
-//これからやる事としてはcircular_double_listの後ろから(prev)の方からの
-//順で出力させたいそして、ここでwhile  文を使いたい。
-
 int main(void) {
   struct t_node *tmp;
   int value;
